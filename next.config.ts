@@ -16,8 +16,28 @@ const nextConfig: NextConfig = {
         hostname: "img-b.udemycdn.com",
         pathname: "/**",
       },
-      // Agrega aquí otros hostnames de imágenes externas si es necesario
+      {
+        protocol: "https",
+        hostname: "img-c.udemycdn.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "m.media-amazon.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "coursera-course-photos.s3.amazonaws.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+        pathname: "/**",
+      }
     ],
+    unoptimized: true
   },
 };
 
